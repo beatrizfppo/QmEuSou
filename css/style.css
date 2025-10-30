@@ -6,28 +6,29 @@
 
 body{
     background-color: #dad4ff;
+    width: 100vw;
+    height: 100vh;
 }
 
 .nav-menu{
-    width: 100%;
+    width: 100vw;
     height: 70px;
     background-color: rgb(117, 9, 219);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 22px;
-    padding-right: 66px;
+    padding: 0 90px;
 }
 
-.nav-menu .nav-itens{
+.nav-itens{
     display: flex;
     align-items: center;
     color: #fff;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 24px;
     font-family: "Inter";
     list-style: none;
-    gap: 48px;
+    gap: 30px;
 }
 
 .nav-itens a{
@@ -48,30 +49,34 @@ body{
 
 .parteum{
     display: flex;
-    padding-top: 80px;
-    padding-left: 300px;
-   
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
 }
 
 .foto img{
     width: 350px;
     height: 350px;
     border-radius: 100%;
+    cursor: pointer;
 }
 
 .foto{
+    display: flex;
     justify-content: center;
-    width: 50%;
+    align-items: center;
 }
 
 
 .direita{
-    
-    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .direita .div-info{
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -80,13 +85,13 @@ body{
 }
 
 .box{
-    margin-top: 38px;
     background-color: #fff;
     width: 500px;
-    height: 120px;
+    height: auto;
     text-align: center;
     margin: 0 auto;
     margin-top: 35px;
+    padding: 10px;
 }
 
 .box p{
@@ -96,41 +101,33 @@ body{
 
 .partedois{
     display: flex;
-    margin-top: 80px;
-    gap: 100px;
-    padding-left: 300px;
+    justify-content: space-around;
+    margin: 10px 0;
 }
 
-.esq2{
-    width: 50%;
+.hobbie, .escola {
+    margin: 5%;
 }
-
 li{
-    font-size: 30px;
+    font-size: 28px;
 }
-
-h1{
+h2{
     font-size: 35px;
+    text-align: center;
 }
-
-p{
-    font-size: 24px;
-}
-
-
+p {font-size: 24px;}
 
 .partetres{
     display: flex;
-    margin-top: 80px;
-    gap: 100px;
-    padding-left: 300px;
-    padding-bottom: 100px;
+    justify-content: space-around;
+    margin: 80px 0;
 }
-
-.esq3{
-    width: 50%;
+.esq3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
 .album{
     width: 200px;
     height: 200px;
@@ -138,19 +135,24 @@ p{
 
 .video{
     display: flex;
+    flex-direction: column;
     gap: 40px;
     margin-top: 10px;
 }
 
 .video p{
-list-style: none;
-margin-top: 150px;
+    list-style: none;
+    text-align: center; 
 }
 
 .video a{
     text-decoration: none;
 }
-
+.dir3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .letra{
-    margin-top: 80px;
+    font-size: 20px;
 }
